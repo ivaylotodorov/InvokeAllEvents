@@ -99,3 +99,21 @@
     TeamFoundationServer: TFSServer.QueryStatus() : ------- Function End -------
     TeamFoundationServer: TFSServer.QueryStatus() : ------- Function Start -------
     TeamFoundationServer: TFSServer.QueryStatus() : ------- Function End -------
+    Warning: TestListFolderNode.Refresh() : Re-running on Dispatcher thread...
+    Uncategorized: <>c__DisplayClass7_1.<Refresh>b__0() : Enumerating test list files in "C:\Users\ittodorov\Desktop\work files\18.07.2016\InvokeAllEvents\InvokeAllEvents\TestLists"...
+    Uncategorized: <>c__DisplayClass7_1.<Refresh>b__0() : 0 test lists found.
+    Uncategorized: <>c__DisplayClass7_1.<Refresh>b__4() : All files parsed and 0 viewmodels added.
+    TestStudio: StandaloneHost.scWorker_UpdateSourceControlStatusRecursive() : ------- Function Start -------
+    TestStudio: StandaloneHost.scWorker_UpdateSourceControlStatusRecursive() : ------- Function End -------
+    Framework: BrowserProvisioner.EndService() : Connecting to the provisioning pipe "Pipe.ArtOfTest.WebAii.BrowserProvisioner_-42640157" in order to unblock and eventually terminate it...
+    Framework: BrowserProvisioner.EndService() : Provisioning pipe connected.
+    Framework: BrowserProvisioner.ServiceThread() : A new client has connected to the provisioning pipe but this will be treated as a termination cue.
+    Framework: BrowserProvisioner.EndService() : Provisioning thread terminated.
+    DialogPlayback: DialogMonitor.Stop() : Dialog monitoring is being halted.
+    UIAutomation: AutomationExtensions.AddAutomationEventHandler() : Added a(n) WindowPatternIdentifiers.WindowOpenedProperty handler on element System.Windows.Automation.AutomationElement scope Descendants.
+    Framework: BrowserProvisioner.EndService() : Connecting to the provisioning pipe "Pipe.ArtOfTest.WebAii.BrowserProvisioner_-68911985" in order to unblock and eventually terminate it...
+    Framework: BrowserProvisioner.ServiceThread() : A new client has connected to the provisioning pipe but this will be treated as a termination cue.
+    Framework: BrowserProvisioner.EndService() : Provisioning pipe connected.
+    Framework: BrowserProvisioner.EndService() : Provisioning thread terminated.
+    DialogPlayback: DialogMonitor.Stop() : Dialog monitoring is being halted.
+    UIAutomation: AutomationExtensions.AddAutomationEventHandler() : Added a(n) WindowPatternIdentifiers.WindowOpenedProperty handler on element System.Windows.Automation.AutomationElement scope Descendants.
