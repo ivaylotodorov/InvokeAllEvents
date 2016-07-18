@@ -1,0 +1,101 @@
+    ======  ======
+    Time:07/18/2016 2:03:56 PM
+    Title: Initiate log
+    Message: 
+    Time:07/18/2016 2:03:56 PM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:07/18/2016 2:03:56 PM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:07/18/2016 2:03:56 PM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:07/18/2016 2:03:56 PM
+    Title: Requesting Validation
+    Message: ILMValidate True
+    Time:07/18/2016 2:03:56 PM
+    Title: Requesting Validation
+    Message: ILMValidate True NotTrial
+    Uncategorized: BugTrackersLoader.LoadSystems() : ------- Function Start -------
+    Uncategorized: Orchestrator._iUIProject_ProjectOpened() : Project 'InvokeAllEvents' Opened.
+    Uncategorized: Orchestrator.set_SelectedProject() : Active Project is : 'InvokeAllEvents'
+    Error: CodeService.CreateLanguageDataHelper() : EXCEPTION! (see below)
+     Situation: Error loading Assembly cache
+     Outer Exception Type: System.NullReferenceException
+     Message: Object reference not set to an instance of an object.
+     HRESULT: 0x80004003 (Official ID (if app.) = E_POINTER, Error Bit = FAILED, Facility = FACILITY_NULL, Code = 16387)
+     Call Stack:
+          at ArtOfTest.WebAii.Design.CodeGeneration.CodeService.CreateLanguageDataHelper(Object sender, DoWorkEventArgs e)
+
+    TestStudio: <>c__DisplayClass34_0.<LoadInternal>b__2() : Extract and merge elements time: 00:00:00.0994490
+    TestStudio: <>c__DisplayClass34_0.<LoadInternal>b__2() : Total Elements count: 17
+    TestStudio: ElementsExplorerViewModel.SyncNodes() : Added 3 visual elements in the Elements Explorer tree.
+    Uncategorized: Orchestrator._iUIProject_TestSelected() : Test 'WebTest' selected.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Warning: PipeCommunication.SyncPipeRead() : Pipe was already disposed at the moment of the read attempt.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Framework: FireFoxInstallation.EnumFireFoxInstallations() : Valid Firefox 47.0.0.0 installation found at "C:\Program Files (x86)\Mozilla Firefox\firefox.exe".
+    Framework: FireFoxInstallation.EnumFireFoxInstallations() : Valid Firefox 47.0.0.0 installation found at "C:\Program Files (x86)\Mozilla Firefox\firefox.exe".
+    Framework: Manager.get_ActiveBrowser() : The current ActiveBrowser is either invisible or disconnected.
+    Warning: PipeCommunication.SyncPipeRead() : Pipe was already disposed at the moment of the read attempt.
+    TeamFoundationServer: TFSServer.ConnectToServer() : ------- Function Start -------
+    Error: RegistryHelper.PerformActionOnCurrentKey() : Cannot locate HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vs\Servicing\11.0\ultimate
+    Error: RegistryHelper.PerformActionOnCurrentKey() : Cannot locate HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vs\Servicing\11.0\premium
+    Error: RegistryHelper.PerformActionOnCurrentKey() : Cannot locate HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vs\Servicing\11.0\professional
+    Error: RegistryHelper.PerformActionOnCurrentKey() : Cannot locate HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vs\Servicing\12.0\ultimate
+    Error: RegistryHelper.PerformActionOnCurrentKey() : Cannot locate HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vs\Servicing\12.0\premium
+    Error: RegistryHelper.PerformActionOnCurrentKey() : Cannot locate HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vs\Servicing\12.0\professional
+    Error: RegistryHelper.PerformActionOnCurrentKey() : Cannot locate HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vs\Servicing\14.0\enterprise
+    TeamFoundationServer: TFSServer.ConnectToServer() : ------- Function End -------
+    TeamFoundationServer: TFSServer.ConnectToServer() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.ConnectToServer() : ------- Function End -------
+    TeamFoundationServer: TFSServer.AttachToRepository() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.AttachToRepository() : ------- Function End -------
+    Warning: TestListFolderNode.Refresh() : Re-running on Dispatcher thread...
+    Uncategorized: <>c__DisplayClass7_1.<Refresh>b__0() : Enumerating test list files in "C:\Users\ittodorov\Desktop\work files\18.07.2016\InvokeAllEvents\InvokeAllEvents\TestLists"...
+    Uncategorized: <>c__DisplayClass7_1.<Refresh>b__0() : 0 test lists found.
+    Uncategorized: <>c__DisplayClass7_1.<Refresh>b__4() : All files parsed and 0 viewmodels added.
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function End -------
+    TestStudio: StandaloneHost.scWorker_UpdateSourceControlStatusRecursive() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.ConnectToServer() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.ConnectToServer() : ------- Function End -------
+    TeamFoundationServer: TFSServer.AttachToRepository() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.AttachToRepository() : ------- Function End -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function End -------
+    TestStudio: StandaloneHost.scWorker_UpdateSourceControlStatusRecursive() : ------- Function End -------
+    TeamFoundationServer: TFSServer.TFSCheckOut() : ------- Function Start -------
+    TeamFoundationServer: TFSServer._vcs_NonFatalError() : Non-fatal error handling TFS request: Failure instance 34836040
+  Code: IncompatibleChangeException
+  ComputerName: 
+  IdentityName: 
+  ItemId: 0
+  LocalItem: 
+  Message: TF14050: Cannot change item $/WebUI_Test_Studio/TestNode/InvokeAllEvents/Settings.aiis because it already has a pending change that is not compatible.
+  RequestType: None
+  ResourceName: 
+  ServerItem: $/WebUI_Test_Studio/TestNode/InvokeAllEvents/Settings.aiis
+  Severity: Error
+  Warnings: [0]
+  WorkspaceName: 
+  WorkspaceOwner: 
+
+    TeamFoundationServer: TFSServer.TFSCheckOut() : Error pending edits
+    TeamFoundationServer: TFSServer.TFSCheckOut() : ------- Function End -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function End -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function End -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function End -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function Start -------
+    TeamFoundationServer: TFSServer.QueryStatus() : ------- Function End -------
